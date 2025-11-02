@@ -43,12 +43,9 @@ def validacao(risco_atual, risco_pos, i, score_max):
                 "risco_projetado": risco_pos,
                 "mensagem": "Risco excessivo. A operação viola a política de Suitability."
             }
-    return saida
+        return saida
 
-def saida_relatorio(cliente) -> str:
-    with open("source/exemplos1.json", "r", encoding="utf-8") as arquivo:
-        data_json = json.load(arquivo)
-
+def saida_relatorio(data_json) -> str:
     # Iteração sobre os clientes e cálculo do risco
     relatorio = []
     for i, cliente in enumerate(data_json):
@@ -63,13 +60,13 @@ def saida_relatorio(cliente) -> str:
 
 def main():
     # Leitura do arquivo JSON
-    with open("source/exemplos1.json", "r", encoding="utf-8") as arquivo:
-        data_json = json.load(arquivo)
-
-    # Iteração sobre os clientes e cálculo do risco
-    for cliente in data_json:
-        calcular_risco_carteira(cliente["nova_ordem"], cliente["carteira"])
-    saida_relatorio(cliente)
+    try:
+        with open("source/exemplos1.json", "r", encoding="utf-8") as arquivo:
+            data_json = json.load(arquivo)
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        print(f"Erro ao ler o arquivo JSON: {e}")
+        return
+    saida_relatorio(data_json)
     print("Case Finalizado!")
 
 

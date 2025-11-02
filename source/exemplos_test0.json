@@ -1,0 +1,67 @@
+[
+    {
+        "perfil": "Moderado",
+        "score_max_risco": 2.5,
+        "carteira": [
+            { "ativo": "CDB XPTO", "risco": 1.2, "valor_investido": 50000 },
+            { "ativo": "Ação ABC", "risco": 4.0, "valor_investido": 10000 }
+        ],
+        "nova_ordem": { "ativo": "FII YYY", "risco": 3.5, "valor_ordem": 5000 }
+    },
+    {
+        "perfil": "Conservador",
+        "score_max_risco": 1.5,
+        "carteira": [
+            { "ativo": "Tesouro Selic", "risco": 0.8, "valor_investido": 80000 },
+            { "ativo": "LCI Seguro", "risco": 1.0, "valor_investido": 20000 }
+        ],
+        "nova_ordem": { "ativo": "CDB Bancoprime", "risco": 1.1, "valor_ordem": 10000 }
+    },
+    {
+        "perfil": "Agressivo",
+        "score_max_risco": 4.5,
+        "carteira": [
+            { "ativo": "Ação XYZ", "risco": 5.0, "valor_investido": 25000 },
+            { "ativo": "Criptomoeda BTC", "risco": 8.0, "valor_investido": 15000 },
+            { "ativo": "FII High", "risco": 3.8, "valor_investido": 10000 }
+        ],
+        "nova_ordem": { "ativo": "Opção CALL ABC", "risco": 7.0, "valor_ordem": 3000 }
+    },
+    {
+        "perfil": "Moderado",
+        "score_max_risco": 3.0,
+        "carteira": [
+            { "ativo": "Fundo Multimercado", "risco": 3.0, "valor_investido": 30000 },
+            { "ativo": "Debênture SetorX", "risco": 2.5, "valor_investido": 15000 }
+        ],
+        "nova_ordem": { "ativo": "ETF Internacional", "risco": 3.2, "valor_ordem": 7000 }
+    },
+    {
+        "perfil": "Conservador",
+        "score_max_risco": 1.0,
+        "carteira": [
+            { "ativo": "Poupança", "risco": 0.5, "valor_investido": 40000 },
+            { "ativo": "CDB Garantido", "risco": 1.0, "valor_investido": 10000 }
+        ],
+        "nova_ordem": { "ativo": "Título Privado Baixo Risco", "risco": 0.9, "valor_ordem": 5000 }
+    },
+    {
+        "perfil": "Agressivo",
+        "score_max_risco": 5.0,
+        "carteira": [
+            { "ativo": "Startup Seed", "risco": 9.0, "valor_investido": 12000 },
+            { "ativo": "Ação Crescimento", "risco": 6.0, "valor_investido": 18000 },
+            { "ativo": "Criptomoeda ALT", "risco": 7.5, "valor_investido": 8000 }
+        ],
+        "nova_ordem": { "atizvo": "Token DeFi", "risco": 8.0, "valor_ordem": 2500 }
+    },
+    {
+        "perfil": "Moderado",
+        "score_max_risco": 2.0,
+        "carteira": [
+            { "ativo": "Fundo Imobiliário A", "risco": 2.8, "valor_investido": 20000 },
+            { "ativo": "CDB Curto Prazo", "risco": 1.1, "valor_investido": 15000 }
+        ],
+        "nova_ordem": { "ativo": "Ação Bluechip", "risco": 2.9, "valor_ordem": 6000 }
+    }
+]

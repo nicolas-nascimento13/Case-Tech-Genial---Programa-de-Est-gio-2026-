@@ -1,67 +1,262 @@
 [
     {
         "perfil": "Moderado",
-        "score_max_risco": 2.5,
+        "score_max_risco": 3.0,
         "carteira": [
-            { "ativo": "CDB XPTO", "risco": 1.2, "valor_investido": 50000 },
-            { "ativo": "Ação ABC", "risco": 4.0, "valor_investido": 10000 }
+            { "ativo": "FII Residencial", "risco": 2.4, "valor_investido": 10000 },
+            { "ativo": "ETF Setorial", "risco": 2.7, "valor_investido": 9000 }
         ],
-        "nova_ordem": { "ativo": "FII YYY", "risco": 3.5, "valor_ordem": 5000 }
+        "nova_ordem": { "ativo": "Debênture Verde", "risco": 3.1, "valor_ordem": 4800 }
     },
     {
         "perfil": "Conservador",
-        "score_max_risco": 1.5,
+        "score_max_risco": 1.1,
         "carteira": [
-            { "ativo": "Tesouro Selic", "risco": 0.8, "valor_investido": 80000 },
-            { "ativo": "LCI Seguro", "risco": 1.0, "valor_investido": 20000 }
+            { "ativo": "Tesouro Selic", "risco": 0.8, "valor_investido": 40000 },
+            { "ativo": "CDB Seguro", "risco": 1.0, "valor_investido": 10000 }
         ],
-        "nova_ordem": { "ativo": "CDB Bancoprime", "risco": 1.1, "valor_ordem": 10000 }
+        "nova_ordem": { "ativo": "Letra Financeira", "risco": 1.1, "valor_ordem": 3000 }
     },
     {
         "perfil": "Agressivo",
-        "score_max_risco": 4.5,
+        "score_max_risco": 5.5,
         "carteira": [
-            { "ativo": "Ação XYZ", "risco": 5.0, "valor_investido": 25000 },
-            { "ativo": "Criptomoeda BTC", "risco": 8.0, "valor_investido": 15000 },
-            { "ativo": "FII High", "risco": 3.8, "valor_investido": 10000 }
+            { "ativo": "Ação Tech", "risco": 6.0, "valor_investido": 14000 },
+            { "ativo": "CriptoX", "risco": 8.8, "valor_investido": 12000 }
         ],
-        "nova_ordem": { "ativo": "Opção CALL ABC", "risco": 7.0, "valor_ordem": 3000 }
+        "nova_ordem": { "ativo": "Startup Fintech", "risco": 7.1, "valor_ordem": 2000 }
+    },
+    {
+        "perfil": "Conservador",
+        "score_max_risco": 1.3,
+        "carteira": [
+            { "ativo": "CDB Prefixado", "risco": 1.2, "valor_investido": 32000 },
+            { "ativo": "Poupança Classic", "risco": 0.6, "valor_investido": 15000 }
+        ],
+        "nova_ordem": { "ativo": "Título Público", "risco": 1.0, "valor_ordem": 2000 }
     },
     {
         "perfil": "Moderado",
-        "score_max_risco": 3.0,
+        "score_max_risco": 2.4,
         "carteira": [
-            { "ativo": "Fundo Multimercado", "risco": 3.0, "valor_investido": 30000 },
-            { "ativo": "Debênture SetorX", "risco": 2.5, "valor_investido": 15000 }
+            { "ativo": "Fundo Multimercado", "risco": 2.3, "valor_investido": 18000 },
+            { "ativo": "Ação Siderúrgica", "risco": 2.7, "valor_investido": 7500 }
         ],
-        "nova_ordem": { "ativo": "ETF Internacional", "risco": 3.2, "valor_ordem": 7000 }
+        "nova_ordem": { "ativo": "ETF BR", "risco": 2.2, "valor_ordem": 4200 }
+    },
+    {
+        "perfil": "Agressivo",
+        "score_max_risco": 4.9,
+        "carteira": [
+            { "ativo": "Token Crypto", "risco": 6.5, "valor_investido": 8000 },
+            { "ativo": "Ação Energia", "risco": 5.4, "valor_investido": 11000 }
+        ],
+        "nova_ordem": { "ativo": "Derivativo High", "risco": 9.1, "valor_ordem": 3000 }
+    },
+    {
+        "perfil": "Moderado",
+        "score_max_risco": 2.7,
+        "carteira": [
+            { "ativo": "ETF Setorial", "risco": 2.6, "valor_investido": 17000 },
+            { "ativo": "Debênture Infra", "risco": 2.9, "valor_investido": 9000 }
+        ],
+        "nova_ordem": { "ativo": "FII Comercial", "risco": 2.8, "valor_ordem": 4500 }
     },
     {
         "perfil": "Conservador",
         "score_max_risco": 1.0,
         "carteira": [
-            { "ativo": "Poupança", "risco": 0.5, "valor_investido": 40000 },
-            { "ativo": "CDB Garantido", "risco": 1.0, "valor_investido": 10000 }
+            { "ativo": "Poupança Família", "risco": 0.5, "valor_investido": 35000 },
+            { "ativo": "Tesouro IPCA", "risco": 0.7, "valor_investido": 8000 }
         ],
-        "nova_ordem": { "ativo": "Título Privado Baixo Risco", "risco": 0.9, "valor_ordem": 5000 }
+        "nova_ordem": { "ativo": "LCI Previdência", "risco": 0.9, "valor_ordem": 1800 }
     },
     {
         "perfil": "Agressivo",
-        "score_max_risco": 5.0,
+        "score_max_risco": 5.8,
         "carteira": [
-            { "ativo": "Startup Seed", "risco": 9.0, "valor_investido": 12000 },
-            { "ativo": "Ação Crescimento", "risco": 6.0, "valor_investido": 18000 },
-            { "ativo": "Criptomoeda ALT", "risco": 7.5, "valor_investido": 8000 }
+            { "ativo": "Private Equity", "risco": 8.4, "valor_investido": 15000 },
+            { "ativo": "Cripto Derivativos", "risco": 7.6, "valor_investido": 6000 }
         ],
-        "nova_ordem": { "atizvo": "Token DeFi", "risco": 8.0, "valor_ordem": 2500 }
+        "nova_ordem": { "ativo": "NFT Game", "risco": 8.8, "valor_ordem": 3400 }
     },
     {
         "perfil": "Moderado",
-        "score_max_risco": 2.0,
+        "score_max_risco": 2.1,
         "carteira": [
-            { "ativo": "Fundo Imobiliário A", "risco": 2.8, "valor_investido": 20000 },
-            { "ativo": "CDB Curto Prazo", "risco": 1.1, "valor_investido": 15000 }
+            { "ativo": "Debênture Sustentável", "risco": 1.9, "valor_investido": 12500 },
+            { "ativo": "FII Logístico", "risco": 2.1, "valor_investido": 11000 }
         ],
-        "nova_ordem": { "ativo": "Ação Bluechip", "risco": 2.9, "valor_ordem": 6000 }
+        "nova_ordem": { "ativo": "ETF Saúde", "risco": 2.0, "valor_ordem": 3700 }
+    },
+    {
+        "perfil": "Agressivo",
+        "score_max_risco": 6.1,
+        "carteira": [
+            { "ativo": "Ação Microcap", "risco": 8.9, "valor_investido": 7000 },
+            { "ativo": "Cripto Staking", "risco": 7.7, "valor_investido": 10000 }
+        ],
+        "nova_ordem": { "ativo": "Token Sports", "risco": 8.5, "valor_ordem": 4100 }
+    },
+    {
+        "perfil": "Conservador",
+        "score_max_risco": 1.2,
+        "carteira": [
+            { "ativo": "Tesouro Regional", "risco": 0.7, "valor_investido": 42000 }
+        ],
+        "nova_ordem": { "ativo": "LCI Baixa Vol", "risco": 1.0, "valor_ordem": 3000 }
+    },
+    {
+        "perfil": "Moderado",
+        "score_max_risco": 2.6,
+        "carteira": [
+            { "ativo": "Fundo Multiestratégia", "risco": 2.4, "valor_investido": 27000 },
+            { "ativo": "Ação Dividendos", "risco": 3.1, "valor_investido": 13000 }
+        ],
+        "nova_ordem": { "ativo": "ETF ESG", "risco": 2.8, "valor_ordem": 7600 }
+    },
+    {
+        "perfil": "Agressivo",
+        "score_max_risco": 6.0,
+        "carteira": [
+            { "ativo": "Venture Capital", "risco": 8.2, "valor_investido": 11500 },
+            { "ativo": "Crypto Staking", "risco": 7.8, "valor_investido": 7000 }
+        ],
+        "nova_ordem": { "ativo": "Derivativo Alavancado", "risco": 9.1, "valor_ordem": 5200 }
+    },
+    {
+        "perfil": "Conservador",
+        "score_max_risco": 0.9,
+        "carteira": [
+            { "ativo": "Poupança VIP", "risco": 0.3, "valor_investido": 50000 },
+            { "ativo": "Título Público Indexado", "risco": 0.7, "valor_investido": 20000 }
+        ],
+        "nova_ordem": { "ativo": "CDB Curto Seguro", "risco": 0.9, "valor_ordem": 3000 }
+    },
+    {
+        "perfil": "Moderado",
+        "score_max_risco": 2.4,
+        "carteira": [
+            { "ativo": "CDB XPTO II", "risco": 1.5, "valor_investido": 22000 },
+            { "ativo": "FII Residencial", "risco": 2.6, "valor_investido": 18000 }
+        ],
+        "nova_ordem": { "ativo": "ETF Agro", "risco": 2.2, "valor_ordem": 6100 }
+    },
+    {
+        "perfil": "Agressivo",
+        "score_max_risco": 6.2,
+        "carteira": [
+            { "ativo": "Derivativo Crypto", "risco": 9.4, "valor_investido": 4000 },
+            { "ativo": "Ação TechDisrupt", "risco": 6.9, "valor_investido": 14000 }
+        ],
+        "nova_ordem": { "ativo": "Bilhete Estruturado", "risco": 7.5, "valor_ordem": 6100 }
+    },
+    {
+        "perfil": "Conservador",
+        "score_max_risco": 1.0,
+        "carteira": [
+            { "ativo": "Poupança Empresas", "risco": 0.6, "valor_investido": 38000 },
+            { "ativo": "CDB Prefixado Curto", "risco": 1.0, "valor_investido": 8000 }
+        ],
+        "nova_ordem": { "ativo": "LCI Segurança", "risco": 0.9, "valor_ordem": 2500 }
+    },
+    {
+        "perfil": "Moderado",
+        "score_max_risco": 2.2,
+        "carteira": [
+            { "ativo": "Fundo Crédito", "risco": 2.1, "valor_investido": 21000 },
+            { "ativo": "Debênture Infra", "risco": 2.9, "valor_investido": 9000 }
+        ],
+        "nova_ordem": { "ativo": "ETF Local", "risco": 2.7, "valor_ordem": 4400 }
+    },
+    {
+        "perfil": "Agressivo",
+        "score_max_risco": 5.8,
+        "carteira": [
+            { "ativo": "Startup Series A", "risco": 8.8, "valor_investido": 10000 },
+            { "ativo": "Cripto Novel", "risco": 9.0, "valor_investido": 6000 }
+        ],
+        "nova_ordem": { "ativo": "Derivativo Exótico", "risco": 9.3, "valor_ordem": 5200 }
+    },
+    {
+        "perfil": "Conservador",
+        "score_max_risco": 1.4,
+        "carteira": [
+            { "ativo": "CDB Ouro", "risco": 1.2, "valor_investido": 35000 },
+            { "ativo": "LCI Protegida", "risco": 1.4, "valor_investido": 12000 }
+        ],
+        "nova_ordem": { "ativo": "Título Corporativo", "risco": 1.3, "valor_ordem": 6000 }
+    },
+    {
+        "perfil": "Moderado",
+        "score_max_risco": 3.1,
+        "carteira": [
+            { "ativo": "Fundo Multissetorial", "risco": 3.2, "valor_investido": 28000 },
+            { "ativo": "CDB Longo", "risco": 1.9, "valor_investido": 12000 }
+        ],
+        "nova_ordem": { "ativo": "ETF Tecnologia", "risco": 3.7, "valor_ordem": 9200 }
+    },
+    {
+        "perfil": "Conservador",
+        "score_max_risco": 0.7,
+        "carteira": [
+            { "ativo": "Poupança Família", "risco": 0.3, "valor_investido": 45000 },
+            { "ativo": "Título Banco", "risco": 0.6, "valor_investido": 15000 }
+        ],
+        "nova_ordem": { "ativo": "LCI Curta", "risco": 0.5, "valor_ordem": 1500 }
+    },
+    {
+        "perfil": "Agressivo",
+        "score_max_risco": 4.9,
+        "carteira": [
+            { "ativo": "Cripto Altseason", "risco": 8.0, "valor_investido": 9000 },
+            { "ativo": "Ação Growth", "risco": 5.4, "valor_investido": 11000 }
+        ],
+        "nova_ordem": { "ativo": "Token Utility", "risco": 6.6, "valor_ordem": 3300 }
+    },
+    {
+        "perfil": "Moderado",
+        "score_max_risco": 2.2,
+        "carteira": [
+            { "ativo": "Fundo Crédito", "risco": 2.1, "valor_investido": 21000 },
+            { "ativo": "Debênture Infra", "risco": 2.9, "valor_investido": 9000 }
+        ],
+        "nova_ordem": { "ativo": "REIT Local", "risco": 2.7, "valor_ordem": 4400 }
+    },
+    {
+        "perfil": "Agressivo",
+        "score_max_risco": 5.5,
+        "carteira": [
+            { "ativo": "Ação Start", "risco": 7.5, "valor_investido": 8500 },
+            { "ativo": "Token Financeiro", "risco": 8.1, "valor_investido": 7300 }
+        ],
+        "nova_ordem": { "ativo": "NFT Digital", "risco": 7.9, "valor_ordem": 2600 }
+    },
+    {
+        "perfil": "Moderado",
+        "score_max_risco": 2.9,
+        "carteira": [
+            { "ativo": "Debênture Verde", "risco": 2.4, "valor_investido": 12500 },
+            { "ativo": "FII Urbano", "risco": 3.2, "valor_investido": 9000 }
+        ],
+        "nova_ordem": { "ativo": "ETF Infraestrutura", "risco": 2.7, "valor_ordem": 3100 }
+    },
+    {
+        "perfil": "Conservador",
+        "score_max_risco": 1.3,
+        "carteira": [
+            { "ativo": "CDB Prefixado", "risco": 1.2, "valor_investido": 32000 },
+            { "ativo": "Poupança Classic", "risco": 0.6, "valor_investido": 15000 }
+        ],
+        "nova_ordem": { "ativo": "Título Público", "risco": 1.0, "valor_ordem": 2000 }
+    },
+    {
+        "perfil": "Agressivo",
+        "score_max_risco": 6.0,
+        "carteira": [
+            { "ativo": "Venture Capital", "risco": 8.2, "valor_investido": 11500 },
+            { "ativo": "Crypto Staking", "risco": 7.8, "valor_investido": 7000 }
+        ],
+        "nova_ordem": { "ativo": "Derivativo Alavancado", "risco": 9.1, "valor_ordem": 5200 }
     }
 ]
