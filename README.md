@@ -1,6 +1,6 @@
 # Case Tech | Genial Investimentos - Programa de Estágio de Férias 2026
 
-Este repositório contém o projeto Motor de Validação de Suitability de Carteira (CVM 30) desenvolvido utilizando Python. Neste arquivo README você encontrará o que esse motor de validação faz, mais suas especifidades
+Este repositório contém o projeto Motor de Validação de Suitability de Carteira (CVM 30) desenvolvido utilizando Python. Neste arquivo README você encontrará o que esse motor de validação faz, considerando suas especifidades
 
 ---
 ## Estrutura do json dos clientes
