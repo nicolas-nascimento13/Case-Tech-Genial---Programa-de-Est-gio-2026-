@@ -21,7 +21,3 @@ Para monitorar o desenquadramento passivo (quando o risco da carteira aumenta ap
     - **E-mail:** Comunicação formal, rastreável e fácil de consultar.
     - **Assessor:** Intervenção proativa nos clientes sensíveis, feita por equipe especializada.
 - **Registro de Comunicação:** Todo envio de alerta deve ser registrado com data, canal, destinatário e motivo para garantir rastreabilidade e compliance.
-
----
-
-> *Este relatório responde diretamente aos tópicos exigidos no desafio de Suitability, com foco regulatório, tecnológico e de comunicação eficiente.*
