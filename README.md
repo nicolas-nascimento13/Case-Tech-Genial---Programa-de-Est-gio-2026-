@@ -24,9 +24,7 @@ Este repositório contém o projeto Motor de Validação de Suitability de Carte
 ```
 ## Cálculo do Risco da Carteira (Média Ponderada)
 ```
-$$
-R_C = \frac{\sum_{i=1}^{n} \left( Risco_i \times ValorInvestido_i \right)}{\sum_{i=1}^{n} ValorInvestido_i}
-$$
+$$R_C = \frac{\sum_{i=1}^{n} \left( Risco_i \times ValorInvestido_i \right)}{\sum_{i=1}^{n} ValorInvestido_i}$$
 ```
 ## Funcionalidade
 
